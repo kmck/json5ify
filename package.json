@@ -1,0 +1,29 @@
+{
+  "name": "json5ify",
+  "version": "1.0.0",
+  "description": "Pipe in JSON5, get back JSON",
+  "main": "./lib/json5ify.js",
+  "preferGlobal": true,
+  "bin": {
+    "json5ify": "./lib/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://www.github.com/kmck/json5ify"
+  },
+  "author": "Keith McKnight",
+  "license": "MIT",
+  "dependencies": {
+    "expand-tilde": "^1.2.0",
+    "json5": "^0.4.0",
+    "minimist": "^1.2.0"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true
+    }
+  }
+}
