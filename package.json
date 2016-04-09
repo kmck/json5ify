@@ -1,6 +1,6 @@
 {
   "name": "json5ify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pipe in JSON5, get back JSON",
   "main": "./lib/json5ify.js",
   "preferGlobal": true,
@@ -17,8 +17,8 @@
   "author": "Keith McKnight",
   "license": "MIT",
   "dependencies": {
-    "expand-tilde": "^1.2.0",
-    "json5": "^0.4.0",
+    "expand-tilde": "^1.2.1",
+    "json5": "^0.5.0",
     "minimist": "^1.2.0"
   },
   "eslintConfig": {
